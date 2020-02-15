@@ -1,0 +1,794 @@
+/* ========== Large device ========== */
+@media (max-width: 1199.98px) { 
+
+.reservation-text p {
+	font-size: 16px;
+    line-height: 20px;
+	padding: 0 54px;
+}
+
+#reservations img {
+	margin: 0;
+}
+
+.form .top {
+	padding-bottom: 20px;
+}
+    
+.form .bottom {
+	padding-bottom: 20px;
+}
+    
+.footer-item {
+	padding-top: 56px;
+	padding-bottom: 65px;
+}
+
+.footer-item-text {
+	padding-top: 25px;
+}
+
+}
+
+/* ========== Medium device ========== */
+@media (max-width: 991.98px) { 
+
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+    border: 0;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+    outline: 0;
+}
+
+.navbar-light .navbar-nav {
+	background: #362f2d;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+	top: 10px;
+	left: 46%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before{
+    width: 50px;
+}
+
+.navbar{
+    padding-top: 0; 
+}
+
+#banner {
+	padding-top: 110px;
+	padding-bottom: 40px;
+}
+
+#banner h1 {
+	font-size: 46px;
+}
+
+.buttons {
+	padding-top: 30px;
+}
+    
+.buttons a {
+	margin: 0 5px;
+	padding: 10px 15px;
+}
+
+.buttons .btn1 {
+	font-size: 18px;
+}
+
+.buttons .btn2 {
+	font-size: 18px;
+}
+
+.food-text h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.food-text p {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    
+.food {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+    
+#ingredients {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#ingredients h2 {
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.ingredient-img {
+	padding-bottom: 25px;
+}
+
+.ingredient-img img {
+	width: 30%;
+}
+
+#ingredients p {
+	font-size: 16px;
+	line-height: 22px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#food-menu {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+    
+.food-menu-heading {
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.food-menu-heading h2 {
+	font-size: 36px;
+}
+
+.food-menu-item h4 {
+	font-size: 24px;
+	line-height: 18px;
+}
+
+.food-menu-item p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.food-menu-items {
+	padding-bottom: 30px;
+}
+
+.main-dish {
+	margin-top: 0;
+}
+
+#review {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    
+.review {
+	padding-bottom: 25px;
+}
+    
+.container {
+	padding-right: 10px;
+	padding-left: 10px;
+}   
+    
+.review h2 {
+	font-size: 32px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}    
+    
+.review .quote p {
+	font-size: 20px;
+	line-height: 24px;
+	padding: 0 20px;
+}    
+
+.quote span {
+	font-size: 82px;
+	top: -5px;
+	left: -5px;
+	width: 30px;
+}
+       
+#reservations {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}    
+    
+.reservation-text {
+	padding-top: 10px;
+	padding-bottom: 28px;
+}    
+
+.reservation-heading {
+	padding-bottom: 20px;
+}
+
+.reservation-heading h3 {
+	font-size: 36px;
+	line-height: 22px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}    
+    
+.reservation-text p {
+	font-size: 20px;
+	line-height: 22px;
+	padding: 0 10px;
+}   
+    
+form input {
+	width: 200px;
+	height: 32px;
+	border: 1px solid #c9a131;
+}    
+    
+.name {
+	width: 250px;
+    margin-right: 15px;
+}    
+    
+.email {
+	width: 250px;
+    margin-right: 15px;
+}    
+    
+.date {
+	width: 250px;
+    margin-right: 15px;
+}    
+    
+.party {
+	width: 250px;
+    margin-right: 15px;
+}    
+    
+.form .top {
+	padding-bottom: 20px;
+}    
+    
+.form .bottom {
+	padding-bottom: 20px;
+}
+    
+form .btn3 {
+	padding: 11px 52px;
+}
+
+#footer{
+    padding-bottom: 10px;
+}
+    
+.footer-item h3 {
+	font-size: 32px;
+	line-height: 16px;
+	padding-bottom: 15px;
+}    
+    
+.footer-item p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.footer-item {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+    
+.icons {
+	padding-top: 30px;
+}
+
+}
+
+/* ========== Small device ========== */
+@media (max-width: 767.98px) { 
+
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+    border: 0;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+    outline: 0;
+}
+
+.navbar-light .navbar-nav {
+	background: #362f2d;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+	top: 10px;
+	left: 46%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before{
+    width: 35px;
+}
+
+.navbar{
+    padding-top: 0; 
+}
+
+#banner {
+	padding-top: 110px;
+	padding-bottom: 40px;
+}
+
+#banner h1 {
+	font-size: 40px;
+}
+
+.buttons {
+	padding-top: 30px;
+}
+    
+.buttons a {
+	margin: 0 5px;
+	padding: 10px 15px;
+}
+
+.buttons .btn1 {
+	font-size: 14px;
+}
+
+.buttons .btn2 {
+	font-size: 14px;
+}
+
+.food-text h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.food-text p {
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    
+.food {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+    
+#ingredients {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#ingredients h2 {
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.ingredient-img {
+	padding-bottom: 25px;
+}
+
+.ingredient-img img {
+	width: 30%;
+}
+
+#ingredients p {
+	font-size: 13px;
+	line-height: 22px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#food-menu {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+    
+.food-menu-heading {
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.food-menu-heading h2 {
+	font-size: 30px;
+}
+
+.food-menu-item h4 {
+	font-size: 20px;
+	line-height: 18px;
+}
+
+.food-menu-item p {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.food-menu-items {
+	padding-bottom: 25px;
+}
+
+.main-dish {
+	margin-top: 0;
+}
+
+#review {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    
+.review {
+	padding-bottom: 25px;
+}
+    
+.container {
+	padding-right: 10px;
+	padding-left: 10px;
+}   
+    
+.review h2 {
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}    
+    
+.review .quote p {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0 20px;
+}    
+       
+#reservations {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}    
+    
+.reservation-text {
+	padding-top: 10px;
+	padding-bottom: 28px;
+}    
+
+.reservation-heading {
+	padding-bottom: 20px;
+}
+
+.reservation-heading h3 {
+	font-size: 30px;
+	line-height: 22px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}    
+    
+.reservation-text p {
+	font-size: 16px;
+	line-height: 22px;
+	padding: 0 9px;
+}    
+    
+form input {
+	width: 140px;
+	height: 32px;
+	border: 1px solid #c9a131;
+}    
+    
+.name {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.email {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.date {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.party {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.form .top {
+	padding-bottom: 20px;
+}    
+    
+.form .bottom {
+	padding-bottom: 20px;
+}
+    
+form .btn3 {
+	padding: 8px 45px;
+}  
+
+#footer{
+    padding-bottom: 10px;
+}
+    
+.footer-item h3 {
+	font-size: 20px;
+	line-height: 16px;
+	padding-bottom: 15px;
+}    
+    
+.footer-item p {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.footer-item {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+    
+.icons {
+	padding-top: 30px;
+}
+
+}
+
+/* ========== Extra small device ========== */
+@media (max-width: 575.98px) {
+
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+    border: 0;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+    outline: 0;
+}
+
+.navbar-light .navbar-nav {
+	background: #362f2d;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+	top: 10px;
+	left: 46%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before{
+    width: 35px;
+}
+
+.navbar{
+    padding-top: 0; 
+}
+
+#banner {
+	padding-top: 110px;
+	padding-bottom: 40px;
+}
+
+#banner h1 {
+	font-size: 40px;
+}
+
+.buttons {
+	padding-top: 30px;
+}
+    
+.buttons a {
+	margin: 0 5px;
+	padding: 10px 15px;
+}
+
+.buttons .btn1 {
+	font-size: 14px;
+}
+
+.buttons .btn2 {
+	font-size: 14px;
+}
+    
+.food-text h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.food-text p {
+	font-size: 13px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    
+.food {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+    
+#ingredients {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#ingredients h2 {
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.ingredient-img {
+	padding-bottom: 25px;
+}
+
+.ingredient-img img {
+	width: 30%;
+}
+
+#ingredients p {
+	font-size: 13px;
+	line-height: 22px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#food-menu {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+    
+.food-menu-heading {
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.food-menu-heading h2 {
+	font-size: 30px;
+}
+
+.food-menu-item h4 {
+	font-size: 20px;
+	line-height: 18px;
+}
+
+.food-menu-item p {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.food-menu-items {
+	padding-bottom: 25px;
+}
+
+.main-dish {
+	margin-top: 0;
+}
+
+#review {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    
+.review {
+	padding-bottom: 25px;
+}
+    
+.container {
+	padding-right: 10px;
+	padding-left: 10px;
+}   
+    
+.review h2 {
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}    
+    
+.review .quote p {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0 20px;
+}    
+       
+#reservations {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}    
+    
+.reservation-text {
+	padding-top: 10px;
+	padding-bottom: 28px;
+}    
+
+.reservation-heading {
+	padding-bottom: 20px;
+}
+
+.reservation-heading h3 {
+	font-size: 30px;
+	line-height: 22px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}    
+    
+.reservation-text p {
+	font-size: 12px;
+	line-height: 22px;
+	padding: 0 9px;
+}    
+    
+form input {
+	width: 140px;
+	height: 32px;
+	border: 1px solid #c9a131;
+}    
+    
+.name {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.email {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.date {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.party {
+	width: 140px;
+    margin-right: 10px;
+}    
+    
+.form .top {
+	padding-bottom: 20px;
+}    
+    
+.form .bottom {
+	padding-bottom: 20px;
+}
+    
+form .btn3 {
+	padding: 8px 45px;
+}  
+
+#footer{
+    padding-bottom: 10px;
+}
+    
+.footer-item h3 {
+	font-size: 20px;
+	line-height: 16px;
+	padding-bottom: 15px;
+}    
+    
+.footer-item p {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.footer-item {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+    
+.icons {
+	padding-top: 30px;
+}
+
+}

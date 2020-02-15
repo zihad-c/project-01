@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+
+/* ========== Header part CSS Starts ========== */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.bg {
+    background: #362f2d;
+    padding: 10px 0;
+    animation: menu 1s;
+}
+
+@keyframes menu {
+    from{top:-100px}
+    to{top: 0px}
+}
+
+.navbar ul li a{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar ul li a:hover{
+    color: #ddd;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    position: relative;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: purple;
+}
+
+.navbar-light .navbar-nav .nav-link:before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.7);
+    top: -35px;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before{
+    width: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: purple;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: #fff;
+}
+
+/* ========== Header part CSS Ends ========== */
+
+/* ========== Banner part CSS Starts ========== */
+#banner{
+    background: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 238px;
+    padding-bottom: 238px;
+}
+
+#banner h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+#banner img{
+    height: 42px;
+    width: 235px;
+}
+
+.buttons{
+    padding-top: 50px;
+}
+
+.buttons a{
+    text-align: center;
+    margin: 0 15px;
+    padding: 22px 52px;
+    background: transparent;
+}
+
+.buttons a:hover{
+    cursor: pointer;
+    background: #ddd;
+    color: #000;
+}
+
+.buttons .btn1{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.buttons .btn2{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.buttons .btn1{
+    position: relative;
+}
+
+.buttons .btn1:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.buttons .btn2{
+    position: relative;
+}
+
+.buttons .btn2:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* ========== Banner part CSS Ends ========== */
+
+/* ========== Food part CSS Starts ========== */
+
+.food{
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.food-text h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #cc9900;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.food-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 52px;
+}
+
+/* ========== Food part CSS Ends ========== */
+
+
+/* ========== Ingredients part CSS Starts ========== */
+
+#ingredients{
+    background: url('../images/banner2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ingredients{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+#ingredients h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 82px;
+    padding-bottom: 15px;
+}
+
+#ingredients p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 52px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.ingredient-img{
+    padding-bottom: 78px;
+}
+
+
+/* ========== Ingredients part CSS Ends ========== */
+
+/* ========== Food-menu part CSS Starts ========== */
+
+#food-menu{
+    padding-top: 102px;
+    padding-bottom: 5px;
+}
+.food-menu-items{
+    padding-bottom: 70px;
+}
+
+.main-dish{
+    margin-top: -70px;
+}
+
+.food-menu-heading{
+    width: 430px;
+    padding-bottom: 32px;
+}
+
+.food-menu-heading h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #cc9900;
+}
+
+.food-menu-item h4{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c89f2d;
+    text-align: left;
+    position: relative;
+}
+
+.food-menu-item h4:after{
+    position: absolute;
+    content: '';
+    bottom: -7px;
+    left: 0;
+    width: 430px;
+    height: 1px;
+    background: #c89f2d;
+}
+
+.food-menu-item p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c89f2d;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.one{
+    width: 430px;
+}
+
+.two{
+    width: 430px;
+}
+
+.three{
+    width: 430px;
+}
+
+.four{
+    width: 430px;
+}
+
+.heading{
+    width: 430px;
+}
+
+.heading .left{
+    float: left;
+}
+
+.heading .right{
+    float: right;
+}
+
+.heading .right span{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c89f2d;
+}
+
+/* ========== Food-menu part CSS Ends ========== */
+
+/* ========== Review part CSS Ends ========== */
+
+#review{
+    background: url('../images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.review{
+    background: rgba(0, 0, 0, 0.75);
+    padding-bottom: 82px;
+}
+
+.review span{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.review h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 92px;
+    padding-bottom: 15px;
+}
+
+.review .quote{
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+
+.review .quote p{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    padding: 0 50px;
+    position: relative;
+}
+
+.quote span{
+    font-family: 'Yeseva One', cursive;
+    font-size: 96px;
+    color: #9b9d9a;
+    line-height: 45px;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 20px;
+    height: 24px;
+    width: 30px;
+}
+
+.review h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+/* ========== Review part CSS Ends ========== */
+
+/* ========== Reservations part CSS Starts ========== */
+
+#reservations{
+    padding-top: 100px;
+    padding-bottom: 102px;
+}
+
+#reservations img{
+    margin: 5px;
+}
+
+.reservation-heading{
+    padding-bottom: 34px;
+}
+
+.reservation-heading h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cc9900;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.reservation-text{
+    padding-bottom: 28px;
+}
+
+.reservation-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+    text-align: center;
+    padding: 0 55px;
+}
+
+.form{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.name{
+    width: 215px;
+    float: left;
+}
+
+.email{
+    width: 215px;
+    float: left;
+}
+
+.date{
+    width: 215px;
+    float: left;
+}
+
+.party{
+    width: 215px;
+    float: left;
+}
+
+.form .top{
+    padding-bottom: 28px;
+}
+
+.form .bottom{
+    padding-bottom: 28px;
+}
+
+.form span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c9a131;
+}
+
+form{
+    display: inline-block;
+}
+
+form input{
+    text-align: center;
+    width: 198px;
+    height: 34px;
+    border: 1px solid #c9a131;
+}
+
+form .btn3{
+    background: #c89f2d;
+    border-bottom: 1px solid rgb(200, 159, 55);
+    padding: 11px 63px;
+}
+
+form .btn3 a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.form .btn3 a:hover{
+    text-decoration: none;
+}
+
+
+/* ========== Reservations part CSS Ends ========== */
+
+/* ========== Footer part CSS Ends ========== */
+
+#footer{
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.footer-item{
+    padding-top: 61px;
+    padding-bottom: 72px;
+}
+
+.footer-item h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fefefe;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-item p span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-item-text{
+    padding-top: 22px;
+}
+
+.icons{
+    padding-top: 56px;
+}
+
+.icons a{
+    padding-right: 8px;
+}
+
+.icons a i{
+    font-size: 16px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.social a:hover i{
+    color: purple;
+}
+
+/* ========== Footer part CSS Ends ========== */
